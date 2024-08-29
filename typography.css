@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 30%;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+}
+p{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}

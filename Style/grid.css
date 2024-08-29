@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 60vh;
+    
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 15% 20% 64%;
+    grid-template-areas: "header header header header"
+                         "nav nav nav nav"
+                         "card1 card2 card3 card4";
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.header-section{
+    background-color: aqua;
+    grid-area: header;
+}
+.navbar-section{
+    background-color: blueviolet;
+    grid-area: nav;
+}
+.card1{
+    background-color: brown;
+    grid-area: card1;
+}
+.card2{
+    background-color: yellow;
+    grid-area: card2;
+}
+.card3{
+    background-color: orange;
+    grid-area: card3;
+}
+.card4{
+    background-color: black;
+    grid-area: card4;
+}
